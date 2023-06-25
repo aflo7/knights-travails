@@ -1,0 +1,32 @@
+/* Add CSS styles here! */
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+
+}
+.box {
+  border: 1px solid black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40pt;
+}
+
+.box:hover {
+  background-color: lightcoral;
+}
+.shadeOfGreen {
+  background-color: rgb(105, 255, 138);
+}
+
+.shaded {
+  background-color: lightgray;
+}
